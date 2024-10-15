@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Hello Elementor Child Theme
+ Theme URI:    https://example.com/hello-child
+ Description:  Tema hijo de Hello Elementor con estilos modularizados
+ Author:       Tu Nombre
+ Author URI:   https://example.com
+ Template:     hello-elementor
+ Version:      1.0
+ Text Domain:  hello-child
+*/
+
+/* Importar estilos del tema padre */
+@import url("../hello-elementor/style.css");
+
