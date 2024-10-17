@@ -1,4 +1,11 @@
 <?php
+
+// CTP BOOKS
+require get_stylesheet_directory() . '/ctps/books/cpt-books.php';
+require get_stylesheet_directory() . '/ctps/books/enqueue-assets.php';
+require get_stylesheet_directory() . '/ctps/books/shortcodes.php';
+
+
 function enqueue_custom_assets() {
 
     wp_enqueue_style('global-style', get_stylesheet_directory_uri() . '/style.css', array(), '1.0');
